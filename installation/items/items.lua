@@ -1,0 +1,5 @@
+-- İtems
+
+uzum                  		= {name = "uzum",                      		label = "Üzüm",                    	weight = 2000,       type = "item",      image = "uzum.png",             	unique = false,     useable = true,     shouldClose = true,     combinable = nil,    description = "Tatlı güzel bir meyvedir. Fakat sadece meyve değil şarap yapımında da kullanılır."},
+sarap                  		= {name = "sarap",                      	label = "İhraç Şarap",                    	weight = 1000,       type = "item",      image = "sarap.png",             	unique = false,     useable = false,     shouldClose = true,     combinable = nil,    description = "Üzümden yapılan bir içkidir."},
+blackmoney 				     = { name = 'blackmoney', label = 'Kara Para', 			weight = 0, 		type = 'item', 		image = 'black_money.png', 			unique = false, 	useable = false, 	shouldClose = true,	   combinable = nil,	decay = 15.0,   description = 'Biraz farklı bir para'}
